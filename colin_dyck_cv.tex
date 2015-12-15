@@ -1,0 +1,178 @@
+\documentclass[11pt,margin,line]{res}
+\usepackage[colorlinks=false,hidelinks=true]{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=5.8in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.25in}}}{\end{list}}
+
+\renewcommand{\namefont}{\bfseries\LARGE}
+
+\newenvironment{prj}{\large\em\vspace{-.1cm}}
+%\newenvironment{prj}{}
+
+\newenvironment{wdates}{}
+
+\begin{document}
+
+\name{Colin Robert Dyck} \hfill
+{\vspace{-.6cm}
+\large\begin{tabular}[c]{r}
+  \bf{250.899.1420} \\
+  \bf{crdyck@sfu.ca}
+\end{tabular}}
+
+\begin{resume}
+\vspace{.5cm}
+\section{\sc Summary}
+\begin{list2}
+\item Enterprise GIS Systems Development
+\item Current M.Sc. Computing Science Student at Simon Fraser University
+\item Bachelor of Geographic Information Systems (B.GIS)
+\item ESRI Certified Desktop Developer Associate
+\end{list2}
+
+\section{\sc Technical \\ Skills}
+\begin{list2}
+\item Languages:  C\#, SQL, Java, Python, Javascript, Typescript
+\item Platforms and APIs: ArcSDE, ArcObjects, Geocortex, Hadoop, MapReduce, Spark
+\item Applications:  ArcGIS, Eclipse, Matlab, Weka, Git, Subversion
+\item Databases: Postgres, SQL Server, PostGIS, Hive
+\end{list2}
+
+\section{\sc Professional Experience}
+{\bf Teck Coal}, Sparwood, British Columbia
+
+\vspace{-.4cm}
+GIS Developer \hfill {\wdates April, 2014 - May, 2015}
+
+{\prj Environmental Water Monitoring Exceedance Reporting}
+\vspace{.1cm}
+\begin{list2}
+\item Designed a reporting system in SQL Server to report mine site water samples that exceed provincial water quality guidelines
+\item Wrote an ArcGisAddIn in C\# to label Silviculture Survey polygons for quick information retrieval
+\item Wrote a framework in T-SQL for identifying data integrity exceptions such as invalid sample data originating from the lab
+\end{list2}
+
+{\prj WebGIS}
+\vspace{.1cm}
+\begin{list2}
+\item Designed codebase and templates so GIS Analysts could create new Geocortex sites
+\item Built a historical permitting web site using Geocortex and backgrid.js frameworks so permitting staff can quickly retrieve permit boundaries, attributes and documents
+\end{list2}
+
+{\bf Selkirk Geospatial Research Centre}, Castlegar, British Columbia
+
+\vspace{-.4cm}
+Research Assistant (Short-term appointment) \hfill {\wdates October, 2012 - April, 2014}
+  
+{\prj Fisheries Sensitive Watershed Indicator Analysis for the Columbia Basin}
+\vspace{.1cm}
+\begin{list2}
+\item Applied elevation, geology, BEC and public/private land data to the BC Freshwater Atlas for determining sensitive fisheries watersheds 
+\item Converted the BC freshwater Atlas to a stream network to determine longest stream length within an Assessment Watershed (ArcGIS, Python)
+\end{list2}
+
+{\prj Columbia River Treaty Economic Analysis}
+\vspace{.1cm}
+\begin{list2}
+\item Determined economically viable land lost due to reservoir flooding for Canadian reservoirs involved in the Columbia River Treaty
+\end{list2}
+
+{\prj Regional District of Kootenay Boundary web map}
+\vspace{.1cm}
+\begin{list2}
+\item Configured and customized the \href{http://rdkb.sgrc.selkirk.ca}{Regional District of Kootenay Boundary web map} using Geocortex Essentials Silverlight API, PostgreSQL, ArcSDE
+\end{list2}
+
+{\bf FortisBC}, Trail, British Columbia
+
+\vspace{-.4cm}
+GIS Systems Analyst \hfill {\wdates April, 2010 - October, 2012}
+
+{\prj ArcFM Implementation}
+\vspace{.1cm}
+\begin{list2}
+\item Worked closely with GIS business and management for FortisBC implementation of ArcGIS and ArcFM
+\item Wrote and supported custom ArcGIS tools for Designers, Linemen, GIS business users (ArcObjects, C\#)
+\item Designed deployment processes for mobile and desktop deployment (Windows XML Installer, C\#)
+\item Wrote advanced geoprocessing routines for desktop and server (Model Builder, Python, C\#)
+\end{list2}
+
+{\bf Selkirk Geospatial Research Centre}, Castlegar, British Columbia
+
+\vspace{-.4cm}
+Research Assistant (Co-op) \hfill {\wdates May, 2009 - December, 2009}
+
+{\prj Higher Level Plan (for the BC Integrated Land Management Bureau)}
+\vspace{.1cm}
+\begin{list2}
+\item Built a dynamic spatial web application that models and forecasts forestry data (ESRI Javascript API, Java, Jasper Reports)
+\end{list2}
+
+\section{\sc Education}
+{\bf Simon Fraser University}, Burnaby, British Columbia\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] M.Sc., Computing Science, 2015 (expected graduation date: December 2016)
+\end{list1}
+
+{\bf Selkirk College}, Castlegar, British Columbia\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Bachelor of Geographic Information Systems, January, 2012
+\item[] AdvDipl., Geographic Information Systems, August, 2009
+\end{list1}
+
+{\bf Humber College}, Etobicoke, Ontario\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] AdvDipl., Computer Information Systems, September, 1997
+\end{list1}
+
+\section{\sc Certifications}
+ESRI Certified Desktop Developer Associate (EDDA10) \hfill {\bf December, 2011}
+
+\section{\sc Recent School Projects}
+{\prj Home Appliance Classification using Electrical Signatures}
+\begin{list2}
+\item Investigated and implemented machine learning algorithms for predicting home appliance classes from electrical characteristics
+\end{list2}
+
+{\prj Open Street Map Completeness for Canada}
+\begin{list2}
+\item Used Levenshtein and geodesic distance measures to flag possible typos and incorrect spatial placement; Summed road lengths per NTS 50K grid for Open Street Map and Canada National Roads Network 
+\end{list2}
+
+\section{\sc Volunteer Work}
+{\bf Castlegar Friends of Parks and Trails}, Castlegar, British Columbia \hfill {\bf 2013}\\
+
+\vspace{-.4cm}
+\begin{list2}
+\item Helped with the legitimization process by identifying existing mountain biking trails in relation to public and private lands
+\item Attended various trail days
+\end{list2}
+
+\end{resume}
+\end{document}
+
+
+
+
